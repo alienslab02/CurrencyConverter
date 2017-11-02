@@ -1,0 +1,47 @@
+import {
+  StyleSheet,
+} from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    padding: 10,
+    backgroundColor: '#F5FCFF',
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  },
+  instructions: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5,
+  },
+  app: {
+    marginTop: 20,
+    borderColor: 'black',
+    borderRadius: 5,
+    borderWidth: 1,
+    padding: 10,
+  },
+  pickerContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  picker: {
+    margin: 10,
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+  input: {
+    marginVertical: 10,
+  },
+  button: {
+    marginHorizontal: 10,
+  },
+  conversionText: {
+    padding: 10,
+  }
+});
